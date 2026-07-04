@@ -42,7 +42,7 @@ npm install
 
 > **Note:** After importing, all data fields will appear **empty** — this is expected. The bot hasn't pushed any stats yet. Click the **pencil icon** on each data field to confirm the mapping is correct.
 >
-> ![Pencil icon](assets/ClickToWrite.png)
+> ![Pencil icon](ClickToWrite.png)
 >
 > Each field should look like this:
 >
