@@ -112,6 +112,13 @@ docker run -d --name phighting-discord-widgets --env-file .env phighting-discord
 docker logs phighting-discord-widgets                                                           # enable logging on your console
 ```
 
+#### (Optional) Stop and delete the Docker container (for debugging or updating purposes)
+```bash
+docker stop phighting-discord-widgets
+docker rm phighting-discord-widgets
+```
+
+
 The bot logs `Bot ready! Logged in as BotName#XXXX` when ready.
 
 ---
