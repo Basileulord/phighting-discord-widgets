@@ -7,10 +7,6 @@ const client = new Client({
     intents: [GatewayIntentBits.Guilds]
 });
 
-client.once('clientReady', () => {
-    console.log(`Bot ready! Logged in as ${client.user.tag}!`);
-});
-
 client.commands = new Collection();
 const foldersPath = path.join(__dirname, 'commands');
 const commandFolders = fs.readdirSync(foldersPath);
