@@ -30,7 +30,7 @@ A project implementing your (unofficial) PHIGHTING! stats to your profile! Curre
 
 ```bash
 git clone https://github.com/C0reyKalier/phighting-discord-widgets.git
-cd phighting-discord-widgets
+cd phighting-discord-widgets/bot
 npm install
 ```
 
@@ -45,7 +45,7 @@ npm install
 1. Go to https://discord.com/developers/applications and reload the page once after installing the extension
 2. Click the **Widget Creator** button in the bottom-right corner
 3. Paste the full contents of **`widget-template.json`** from this repo into the JSON box
-4. Click **Import** — the extension creates the application with the OverWidget layout and stat icons pre-configured
+4. Click **Import** — the extension creates the application with the template layout and stat icons pre-configured
 5. Complete any captcha / 2FA if prompted
 
 > **Note:** After importing, all data fields will appear **empty** — this is expected. The bot hasn't pushed any stats yet. Click the **pencil icon** on each data field to confirm the mapping is correct.
