@@ -89,7 +89,7 @@ Once done, copy from the Developer Portal:
 
 ### Configure `.env`
 
-You can rename `.env.example` to `.env` or create your own `.env` file:
+Rename `.env.example` to `.env` or you can create your own `.env` file:
 
 ```env
 BOT_TOKEN=YOUR_BOT_TOKEN
