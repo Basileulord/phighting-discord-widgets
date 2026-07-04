@@ -1,9 +1,16 @@
 # phighting-discord-widgets
+
 A project implementing your (unofficial) PHIGHTING! stats to your profile! Currently in heavy W.I.P
 
 ![Widget preview](widget-preview.png)
 
 ---
+
+## Planned features & TODO:
+
+- Polished UX for the Discord bot
+- Add Android support via Termux using dialog and curl
+- Support for the second type of the Widget (4 featured images)
 
 ## Requirements
 
@@ -75,6 +82,7 @@ npm install
 > There are 2 fallback images: `zuka_fallback` and `sword` are uploaded automatically on import — `zuka_fallback` serves as a fallback image when there are no images available, while `sword` is for the preview for the widget when you add it from the "Add Widgets" menu.
 
 Once done, copy from the Developer Portal:
+
 - **Application ID** → General Information page
 - **Bot Token** → Bot page → Reset Token
 
@@ -96,6 +104,7 @@ BLOXLINK_API_KEY=YOUR_BLOXLINK_API_KEY
 ### Deploy and start
 
 There are two ways you can deploy the bot:
+
 #### Via command line (local machines)
 
 ```bash
@@ -105,6 +114,7 @@ npm start        # start the bot
 ```
 
 #### Via Docker (if you are deploying it to a server)
+
 ```bash
 cd bot                                                                                          # if you are not in the bot directory
 docker build -t phighting-discord-widgets .                                                     # build from dockerfile
@@ -113,11 +123,11 @@ docker logs phighting-discord-widgets                                           
 ```
 
 #### (Optional) Stop and delete the Docker container (for debugging or updating purposes)
+
 ```bash
 docker stop phighting-discord-widgets
 docker rm phighting-discord-widgets
 ```
-
 
 The bot logs `Bot ready! Logged in as BotName#XXXX` when ready.
 
