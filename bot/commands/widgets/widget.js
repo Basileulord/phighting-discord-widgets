@@ -40,8 +40,8 @@ async function execute(interaction) {
     }
 
     // -----------------------------------------------------------
-<<<<<<< HEAD
-=======
+	//		HEAD
+	//
     // SUBCOMMAND: EDIT
     // -----------------------------------------------------------
     if (subcommand === 'edit') {
@@ -277,7 +277,7 @@ async function execute(interaction) {
     }
 
     // -----------------------------------------------------------
->>>>>>> efdaa61ab2f4f334eda7d98440a1ef413eb79801
+	// efdaa61ab2f4f334eda7d98440a1ef413eb79801
     // SUBCOMMAND: APPLY
     // -----------------------------------------------------------
     if (subcommand === 'apply') {
