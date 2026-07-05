@@ -23,7 +23,7 @@ async function execute(interaction) {
     if (subcommand === 'setup') {
         const targetUser = interaction.user;
 
-        const oauthLink = `https://discord.com/oauth2/authorize?client_id=${process.env.APPLICATION_ID}&response_type=token&redirect_uri=https%3A%2F%2Fdiscord.com%2F&scope=openid+sdk.social_layer`;
+        const oauthLink = `https://discord.com/oauth2/authorize?client_id=${process.env.APPLICATION_ID}&response_type=token&redirect_uri=https%3A%2F%2Fdiscord.com&scope=openid+sdk.social_layer`;
 
         const actionRow = new ActionRowBuilder().addComponents(
             new ButtonBuilder()
