@@ -139,7 +139,7 @@ The bot logs `Bot ready! Logged in as BotName#XXXX` when ready.
 | Command | Description |
 |---|---|
 | `/widget setup` | Authorize the application on your discord account |
-| `/widget edit` | Edit your stats |
+| `/stats_widget edit` | Edit your stats |
 | `/widget apply` | Shows a guide to apply your widget to your profile (Requires a web browser/Vencord with DevTools enabled) |
 
 ---
