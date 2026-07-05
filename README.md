@@ -40,7 +40,7 @@ npm install
 2. **Chrome / Edge / Brave**: `chrome://extensions` → Enable Developer Mode → Load unpacked → select the `chrome-extension/` folder
 3. **Firefox**: `about:debugging#/runtime/this-firefox` → Load Temporary Add-on → select `firefox-extension/manifest.json`
 
-### Import the widget layout
+### Import the widget layout and configure redirect
 
 1. Go to https://discord.com/developers/applications and reload the page once after installing the extension
 2. Click the **Widget Creator** button in the bottom-right corner
@@ -82,8 +82,9 @@ npm install
 >
 > There are 2 fallback images: `zuka_fallback` and `sword` are uploaded automatically on import — `zuka_fallback` serves as a fallback image when there are no images available, while `sword` is for the preview for the widget when you add it from the "Add Widgets" menu.
 
-Once done, copy from the Developer Portal:
+Once done, head to the **Developer Portal** → OAuth2 page and add a redirect "https://discord.com". This will allow you to be able to authorize the app to your account.
 
+After confirming the redirect URL has been set to "https://discord.com", get your bot token in the same **Developer Portal page**:
 - **Application ID** → General Information page
 - **Bot Token** → Bot page → Reset Token
 
