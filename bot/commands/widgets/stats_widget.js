@@ -24,6 +24,10 @@ const data = new SlashCommandBuilder()
                     { name: 'Daily Streak', value: 'Daily Streak' },
                     { name: 'Brokercoins Donated', value: 'Brokercoins Donated' },
                     { name: 'Best Win Streak', value: 'Best Win Streak' },
+                    { name: 'Total Kills', value: 'Total Kills'},
+                    { name: 'Total Deaths', value: 'Total Deaths'},
+                    { name: 'Total Assists', value: 'Total Assists'},
+                    { name: 'Best Phestival Title', value: 'Best Phestival Title'}
                     // Uncomment the following line if you want to allow users to input your custom stats
                     // { name: 'Custom Stat', value: 'Custom' }
                 )
@@ -46,7 +50,11 @@ const data = new SlashCommandBuilder()
                     { name: 'Hours Played', value: 'Hours Played' },
                     { name: 'Daily Streak', value: 'Daily Streak' },
                     { name: 'Brokercoins Donated', value: 'Brokercoins Donated' },
-                    { name: 'Best Win Streak', value: 'Best Win Streak' }
+                    { name: 'Best Win Streak', value: 'Best Win Streak' },
+                    { name: 'Total Kills', value: 'Total Kills'},
+                    { name: 'Total Deaths', value: 'Total Deaths'},
+                    { name: 'Total Assists', value: 'Total Assists'},
+                    { name: 'Best Phestival Title', value: 'Best Phestival Title'}
                 )
                 .setRequired(true)
             )
@@ -67,7 +75,11 @@ const data = new SlashCommandBuilder()
                     { name: 'Hours Played', value: 'Hours Played' },
                     { name: 'Daily Streak', value: 'Daily Streak' },
                     { name: 'Brokercoins Donated', value: 'Brokercoins Donated' },
-                    { name: 'Best Win Streak', value: 'Best Win Streak' }
+                    { name: 'Best Win Streak', value: 'Best Win Streak' },
+                    { name: 'Total Kills', value: 'Total Kills'},
+                    { name: 'Total Deaths', value: 'Total Deaths'},
+                    { name: 'Total Assists', value: 'Total Assists'},
+                    { name: 'Best Phestival Title', value: 'Best Phestival Title'}
                 )
                 .setRequired(true)
             )
@@ -88,7 +100,11 @@ const data = new SlashCommandBuilder()
                     { name: 'Hours Played', value: 'Hours Played' },
                     { name: 'Daily Streak', value: 'Daily Streak' },
                     { name: 'Brokercoins Donated', value: 'Brokercoins Donated' },
-                    { name: 'Best Win Streak', value: 'Best Win Streak' }
+                    { name: 'Best Win Streak', value: 'Best Win Streak' },
+                    { name: 'Total Kills', value: 'Total Kills'},
+                    { name: 'Total Deaths', value: 'Total Deaths'},
+                    { name: 'Total Assists', value: 'Total Assists'},
+                    { name: 'Best Phestival Title', value: 'Best Phestival Title'}
                 )
                 .setRequired(true)
             )
@@ -109,7 +125,11 @@ const data = new SlashCommandBuilder()
                     { name: 'Hours Played', value: 'Hours Played' },
                     { name: 'Daily Streak', value: 'Daily Streak' },
                     { name: 'Brokercoins Donated', value: 'Brokercoins Donated' },
-                    { name: 'Best Win Streak', value: 'Best Win Streak' }
+                    { name: 'Best Win Streak', value: 'Best Win Streak' },
+                    { name: 'Total Kills', value: 'Total Kills'},
+                    { name: 'Total Deaths', value: 'Total Deaths'},
+                    { name: 'Total Assists', value: 'Total Assists'},
+                    { name: 'Best Phestival Title', value: 'Best Phestival Title'}
                 )
                 .setRequired(true)
             )
@@ -130,7 +150,11 @@ const data = new SlashCommandBuilder()
                     { name: 'Hours Played', value: 'Hours Played' },
                     { name: 'Daily Streak', value: 'Daily Streak' },
                     { name: 'Brokercoins Donated', value: 'Brokercoins Donated' },
-                    { name: 'Best Win Streak', value: 'Best Win Streak' }
+                    { name: 'Best Win Streak', value: 'Best Win Streak' },
+                    { name: 'Total Kills', value: 'Total Kills'},
+                    { name: 'Total Deaths', value: 'Total Deaths'},
+                    { name: 'Total Assists', value: 'Total Assists'},
+                    { name: 'Best Phestival Title', value: 'Best Phestival Title'}
                 )
                 .setRequired(true)
             )
