@@ -213,11 +213,12 @@ async function execute(interaction) {
         await interaction.deferReply({ ephemeral: true });
 
         const discordId = interaction.user.id;
+		const guildId = process.env.GUILD_ID
         let fullNameValue = '';
 
         try {
             // Fetch Roblox ID from Bloxlink v4 API
-            const bloxlinkRes = await fetch(`https://api.blox.link/v4/public/guilds/1520815436063703100/discord-to-roblox/${discordId}`, {
+            const bloxlinkRes = await fetch(`https://api.blox.link/v4/public/guilds/${guildId}/discord-to-roblox/${discordId}`, {
                 headers: { 'Authorization': process.env.BLOXLINK_API_KEY }
             });
             const bloxlinkData = await bloxlinkRes.json();
