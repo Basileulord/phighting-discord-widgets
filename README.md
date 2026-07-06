@@ -8,10 +8,11 @@ A project implementing your (unofficial) PHIGHTING! stats to your profile! Curre
 
 ## Planned features & TODO:
 
-- Polished UX for the Discord Bot
+- More comprehensive and friendly guide to set up **[PRIORITY]**
+- Polished UX for the Discord Bot **[PRIORITY]**
 - Standalone (Win32) program for Windows
 - Add Android support via Termux using dialog and curl
-- Support for the second type of the Widget (4 featured images)
+- Support for the second type of the Widget (4 featured images) **[PRIORITY]**
 
 ## Requirements
 
