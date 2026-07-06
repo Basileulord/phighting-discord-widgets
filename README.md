@@ -1,6 +1,6 @@
 # PHIGHTING! x Discord (Unofficial) Widget Integration
 
-A project implementing your (unofficial) PHIGHTING! stats to your profile! Currently in heavy W.I.P
+A project implementing your (unofficial) PHIGHTING! stats to your Discord profile! Currently in heavy W.I.P
 
 ![Widget preview](widget-preview.png)
 
