@@ -18,7 +18,7 @@ Welcome to the PHIGHTING! Discord Widgets setup guide! This guide will walk you 
 
 ## Contents of this guide
 
-**[Setting up the widget](widget-setup.md):** This is where you can learn how to set up your widget (whether through manually by hand or through a pre-set template using a browser extension.)
-**[Setting up the bot](bot-setup.md):** This is where you can learn how to set up the bot to make it easier for you to edit your stats via commands.
-**[Sharing your widget to your friends](sharing-the-widget.md):** This is where you can learn how to share your widget to your **(TRUSTED!)** friends.
-**[Frequently asked questions](../faq.md):** For common troubleshooting when setting up/using this repo.
+- **[Setting up the widget](widget-setup.md):** This is where you can learn how to set up your widget (whether through manually by hand or through a pre-set template using a browser extension.)
+- **[Setting up the bot](bot-setup.md):** This is where you can learn how to set up the bot to make it easier for you to edit your stats via commands.
+- **[Sharing your widget to your friends](sharing-the-widget.md):** This is where you can learn how to share your widget to your **(TRUSTED!)** friends.
+- **[Frequently asked questions](../faq.md):** For common troubleshooting when setting up/using this repo.
