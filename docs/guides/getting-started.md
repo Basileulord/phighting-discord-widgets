@@ -22,3 +22,9 @@ Welcome to the PHIGHTING! Discord Widgets setup guide! This guide will walk you 
 - **[Setting up the bot](bot-setup.md):** This is where you can learn how to set up the bot to make it easier for you to edit your stats via commands.
 - **[Sharing your widget to your friends](sharing-the-widget.md):** This is where you can learn how to share your widget to your **(TRUSTED!)** friends.
 - **[Frequently asked questions](../faq.md):** For common troubleshooting when setting up/using this repo.
+
+## Precautions
+Please read the following security notices carefully before setting up or sharing access to your application.
+
+- This repository requires access to your application's Bot Token. Treat this token exactly like your account password. If you accidentally leak or commit your token to a public repository, unauthorized parties can gain control of your bot. Because this setup manipulates experimental profile data, an attacker with your token could modify, overwrite, or maliciously alter your profile data, as well as any other data associated with the application.
+- If you are sharing this to your friends, be aware that you are required to set their Developer Portal Team role to Developer or higher. For this reason, anyone with a role of Developer or higher in your Developer Portal Team has full access to the application configuration. This means they can easily edit, delete, or completely redesign the widget layout itself, which will immediately reflect on the profiles of anyone using it. Only share this widget, invite links, or team access with highly trusted friends or team members. Do not grant Developer roles in your portal to anyone you do not explicitly trust to use or manage your layout
